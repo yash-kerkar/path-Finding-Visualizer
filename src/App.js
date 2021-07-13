@@ -10,7 +10,7 @@ import {
 function App() {
   return (
     <>
-    <Router>
+    <Router basename={window.location.pathname || ''}>
     <Route exact path="/" render={()=>{
         return(
           <>

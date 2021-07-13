@@ -1,0 +1,63 @@
+.node {
+    width:20px;
+    height:20px;
+    background-color:white;
+    outline:1px solid rgba(144, 175, 175, 0.75);
+    display:inline-block;
+  }
+
+  .node-start {
+      width:20px;
+      height:20px;
+      outline:1px solid rgba(144, 175, 175, 0.75);
+      display:inline-block;
+      background-color:lightgreen;
+  }
+
+  .node-finish {
+      width:20px;
+      height:20px;
+      outline:1px solid rgba(144, 175, 175, 0.75);
+      display:inline-block;
+      background-color: red;
+  }
+
+.node-isvisited {
+    width:20px;
+    height:20px;
+    outline:1px solid rgba(144, 175, 175, 0.75);
+    display:inline-block;
+    background-color:blue;
+}
+
+.node-inPath {
+    width:20px;
+    height:20px;
+    outline:1px solid rgba(144, 175, 175, 0.75);
+    display:inline-block;
+    background-color:yellow;
+}
+
+.node-isWall {
+    width:20px;
+    height:20px;
+    outline:1px solid rgba(144, 175, 175, 0.75);
+    display:inline-block;
+    background-color:black;
+}
+
+.node-isBorder {
+    width:20px;
+    height:20px;
+    outline:1px solid rgba(144, 175, 175, 0.75);
+    display:inline-block;
+    background-color:green;
+}
+
+.font-link{
+    font-family: 'Courgette', cursive;
+    /*font-style: oblique;*/
+    color: lightgrey;
+    size: 20px;
+}
+
